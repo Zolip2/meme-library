@@ -18,3 +18,15 @@ body {
     background-color: rgb(155, 150, 150);
     background-image: url("pictures/szia\ uram\ háttér");
 }
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    body { width:67%; }
+    #doboz { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    body { width:100%; }
+    #doboz { width:100%; margin:0; border:none; }
+}
