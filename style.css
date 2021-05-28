@@ -1,5 +1,5 @@
 #doboz {
-    width:  1330px;
+    width:  1470px;
     height: 600px;
     display: flex;
     align-items: flex-start;
@@ -18,10 +18,24 @@ body {
     background-color: rgb(155, 150, 150);
     background-image: url("pictures/szia\ uram\ háttér");
 }
-
-@media (max-width: 1600px) and (max-height: 992px) {
-    body {
-        width: 1600px;
+/*Desktop*/
+@media screen and (min-height:992px) and (min-width:1600px) {
+    #doboz {
+        width: 1500px;
         height: 992px;
+        justify-content: space-evenly;
     }
 }
+
+@media screen and (min-height:992px) and (min-width:1600px) {
+    body {
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+
+/*Laptop*/
+    }
+}
+
+/*Tablet*/
