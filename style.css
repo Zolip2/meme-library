@@ -1,0 +1,20 @@
+#doboz {
+    width:  1330px;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.kep {
+    width: 150px;
+    height: 150px;
+}
+
+.kep:hover {
+    width: 500px;
+    height: 500px;
+}
+body {
+    background-color: rgb(155, 150, 150);
+    background-image: url("pictures/szia\ uram\ háttér");
+}
