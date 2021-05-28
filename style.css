@@ -1,9 +1,10 @@
 #doboz {
-    width:  1470px;
+    width:  1300px;
     height: 600px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    align-content: flex-start;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 .kep {
     width: 150px;
@@ -11,8 +12,8 @@
 }
 
 .kep:hover {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
 }
 body {
     background-color: rgb(155, 150, 150);
@@ -35,7 +36,5 @@ body {
 }
 
 /*Laptop*/
-    }
-}
 
 /*Tablet*/
