@@ -18,3 +18,10 @@ body {
     background-color: rgb(155, 150, 150);
     background-image: url("pictures/szia\ uram\ háttér");
 }
+
+@media (max-width: 1600px) and (max-height: 992px) {
+    body {
+        width: 1600px;
+        height: 992px;
+    }
+}
