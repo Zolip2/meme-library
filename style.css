@@ -38,7 +38,7 @@ body {
 /*Laptop*/
 
 /*Tablet*/
-@media screen and (min-height:1024px) and (min-width:768px) {
+@media screen and (max-height:1024px) and (max-width:768px) {
     #doboz {
         width: 768px;
         height: 1024px;
@@ -58,6 +58,22 @@ body {
     #doboz {
         width: 320px;
         height: 480px;
+    }
+    .kep {
+        width: 100px;
+        height: 100px;
+    }
+    .kep:hover {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/*én telefonom*/
+@media screen and (max-height:854px) and (max-width:480px) {
+    #doboz {
+        width: 480px;
+        height: 854px;
     }
     .kep {
         width: 100px;
