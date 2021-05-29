@@ -38,3 +38,33 @@ body {
 /*Laptop*/
 
 /*Tablet*/
+@media screen and (min-height:1024px) and (min-width:768px) {
+    #doboz {
+        width: 768px;
+        height: 1024px;
+    }
+    .kep {
+        width: 200px;
+        height: 200px;
+    }
+    .kep:hover {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*mobile*/
+@media screen and (max-height:480px) and (max-width:320px) {
+    #doboz {
+        width: 320px;
+        height: 480px;
+    }
+    .kep {
+        width: 100px;
+        height: 100px;
+    }
+    .kep:hover {
+        width: 100px;
+        height: 100px;
+    }
+}
