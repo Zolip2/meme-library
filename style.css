@@ -54,10 +54,10 @@ body {
 }
 
 /*mobile*/
-@media screen and (max-height:480px) and (max-width:320px) {
+@media screen and (max-height:580px) and (max-width:420px) {
     #doboz {
-        width: 320px;
-        height: 480px;
+        width: 420px;
+        height: 580px;
     }
     .kep {
         width: 100px;
