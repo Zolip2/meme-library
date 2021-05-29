@@ -54,7 +54,7 @@ body {
 }
 
 /*mobile*/
-@media screen and (max-height:580px) and (max-width:420px) {
+@media screen and (max-height:680px) and (max-width:520px) {
     #doboz {
         width: 420px;
         height: 580px;
