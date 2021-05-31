@@ -123,3 +123,12 @@ body {
         height: 653px;
     }
 }
+
+#forti {
+    width: 400px;
+}
+
+#forti:hover {
+    width: 400px;
+    height: 150px;
+}
