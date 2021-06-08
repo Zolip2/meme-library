@@ -16,11 +16,8 @@
     height: 250px;
 }
 body {
-    align-items: center;
-    justify-content: space-evenly;
-    display: flex;
     background-color: rgb(155, 150, 150);
-    background-image: url("pictures/szia\ uram\ háttér");
+    background-image: url("../pictures/szia\ uram\ háttér");
 }
 /*Desktop*/
 @media screen and (min-height:992px) and (min-width:1600px) {
@@ -136,35 +133,13 @@ body {
     height: 150px;
 }
 
-#spongyabob {
+#vissza {
     font-size: large;
     background-color: green;
     border-radius: 10px;
 }
 
-#nyelvtan {
-    font-size: large;
-    background-color: green;
-    border-radius: 10px;
-}
-
-#random {
-    font-size: large;
-    background-color: green;
-    border-radius: 10px;
-}
-
-#spongyabob:hover {
-    background-color: red;
-    font-size: medium;
-}
-
-#nyelvtan:hover {
-    background-color: red;
-    font-size: medium;
-}
-
-#random:hover {
+#vissza:hover {
     background-color: red;
     font-size: medium;
 }
