@@ -9,3 +9,10 @@ $("#nyelvtan").click(function(){
 $("#random").click(function(){
     window.location.href = "random/index.html";
 })
+
+$("#bejelentkezesgomb").click(function(){
+    var valasz = document.getElementById("bejelentkezes").value
+    if (valasz == 1968) {
+        window.location.href = "secret/index.html"
+    }
+})

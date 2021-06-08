@@ -168,3 +168,11 @@ body {
     background-color: red;
     font-size: medium;
 }
+
+label {
+    color: white;
+}
+
+#bejelentkezes {
+    margin: 0;
+}
