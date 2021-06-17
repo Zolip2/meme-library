@@ -18,3 +18,9 @@ $("#bejelentkezesgomb").click(function(){
         window.location.href = "személyes/index.html"
     }
 })
+
+var audio = new Audio('sound/Rick Astley - Never Gonna Give You Up (Video).mp3')
+
+$("#rick").on("click", () => {
+    audio.play();
+})

@@ -176,3 +176,14 @@ label {
 #bejelentkezes {
     margin: 0;
 }
+
+#rick {
+    font-size: large;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#rick:hover {
+    background-color: red;
+    font-size: medium;
+}
