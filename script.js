@@ -21,6 +21,6 @@ $("#bejelentkezesgomb").click(function(){
 
 var audio = new Audio('sound/Rick Astley - Never Gonna Give You Up (Video).mp3')
 
-$("#rick").on("click", () => {
-    audio.play();
+$("#rick").click(function(){
+    audio.play()
 })
