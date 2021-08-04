@@ -19,8 +19,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     display: flex;
-    background-color: rgb(155, 150, 150);
-    background-image: url("../pictures/szia\ uram\ háttér");
+    background-color: rgba(0, 0, 0, 0.678);
 }
 /*Desktop*/
 @media screen and (min-height:992px) and (min-width:1600px) {

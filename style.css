@@ -19,8 +19,8 @@ body {
     align-items: center;
     justify-content: space-evenly;
     display: flex;
-    background-color: rgb(155, 150, 150);
-    background-image: url("pictures/szia\ uram\ háttér");
+    background-color: rgba(0, 0, 0, 0.678);
+    
 }
 /*Desktop*/
 @media screen and (min-height:992px) and (min-width:1600px) {
@@ -137,36 +137,54 @@ body {
 }
 
 #spongyabob {
-    font-size: large;
-    background-color: green;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
+    transition: width 1s, height 1s, transform 1s;
+    animation: fade;
+    opacity: 0.3;
 }
 
 #nyelvtan {
-    font-size: large;
-    background-color: green;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
+    transition: width 1s, height 1s, transform 1s;
+    animation: fade;
+    opacity: 0.3;
 }
 
 #random {
-    font-size: large;
-    background-color: green;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
+    transition: width 1s, height 1s, transform 1s;
+    animation: fade;
+    opacity: 0.3;
 }
 
 #spongyabob:hover {
-    background-color: red;
-    font-size: medium;
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+    opacity: 1;
+    transition: 1s;
 }
 
 #nyelvtan:hover {
-    background-color: red;
-    font-size: medium;
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+    opacity: 1;
+    transition: 1s;
 }
 
 #random:hover {
-    background-color: red;
-    font-size: medium;
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+    opacity: 1;
+    transition: 1s;
 }
 
 label {
@@ -178,12 +196,18 @@ label {
 }
 
 #rick {
-    font-size: large;
-    background-color: green;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
+    transition: width 1s, height 1s, transform 1s;
+    animation: fade;
+    opacity: 0.3;
 }
 
 #rick:hover {
-    background-color: red;
-    font-size: medium;
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+    opacity: 1;
+    transition: 1s;
 }

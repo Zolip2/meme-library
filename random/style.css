@@ -16,8 +16,7 @@
     height: 250px;
 }
 body {
-    background-color: rgb(155, 150, 150);
-    background-image: url("../pictures/szia\ uram\ háttér");
+    background-color: rgba(0, 0, 0, 0.678);
 }
 /*Desktop*/
 @media screen and (min-height:992px) and (min-width:1600px) {
