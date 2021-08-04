@@ -16,112 +16,19 @@
     height: 250px;
 }
 body {
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    align-content: space-around;
     display: flex;
     background-color: rgba(0, 0, 0, 0.678);
+    height: 500px;
     
 }
-/*Desktop*/
-@media screen and (min-height:992px) and (min-width:1600px) {
-    #doboz {
-        width: 1500px;
-        height: 992px;
-        justify-content: space-evenly;
-    }
-}
 
-@media screen and (min-height:992px) and (min-width:1600px) {
-    body {
-        background-repeat: no-repeat;
-        background-size:cover;
-    }
-}
-
-/*Laptop*/
-
-/*Tablet*/
-@media screen and (min-height:1024px) and (min-width:768px) {
-    #doboz {
-        width: 768px;
-        height: 1024px;
-    }
-    .kep {
-        width: 200px;
-        height: 200px;
-    }
-    .kep:hover {
-        width: 200px;
-        height: 200px;
-    }
-}
-/*én telefonom*/
-@media screen and (max-height:854px) and (max-width:480px) {
-    #doboz {
-        height: 854px;
-        width: 480px;
-    }
-    .kep {
-        width: 300px;
-        height: 300px;
-    }
-    .kep:hover {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-/*mobile*/
-@media screen and (max-height:480px) and (max-width:320px) {
-    #doboz {
-        width: 320px;
-        height: 480px;
-    }
-    .kep {
-        width: 100px;
-        height: 100px;
-    }
-    .kep:hover {
-        width: 100px;
-        height: 100px;
-    }
-}
-
-/*ipad pro*/
-@media screen and (min-height:1366px) and (min-width:1024px) {
-    #doboz {
-        width: 1024px;
-        height:1366px;
-    }
-
-    .kep {
-        width: 400px;
-        height: 400px;
-    }
-    .kep:hover {
-        width: 400px;
-        height: 400px;
-    }
-}
-
-/*surface duo*/
-@media screen and (max-height:720px) and (max-width:540px) {
-    #doboz {
-        width: 540px;
-        height: 720px;
-    }
-    .kep {
-        width: 400px;
-        height: 400px;
-    }
-    .kep:hover {
-        width: 400px;
-        height: 400px;
-    }
-}
 /*galaxy fold*/
 @media screen and (max-height:653px) and (max-width:280px) {
-    #doboz {
+    body {
         width: 280px;
         height: 653px;
     }
@@ -210,4 +117,13 @@ label {
     transform: rotate(360deg);
     opacity: 1;
     transition: 1s;
+}
+
+::-webkit-scrollbar {
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
 }

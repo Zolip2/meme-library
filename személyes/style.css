@@ -175,3 +175,12 @@ label {
 #bejelentkezes {
     margin: 0;
 }
+
+::-webkit-scrollbar {
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+}

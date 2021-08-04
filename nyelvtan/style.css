@@ -142,3 +142,12 @@ body {
     background-color: red;
     font-size: medium;
 }
+
+::-webkit-scrollbar {
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+}
