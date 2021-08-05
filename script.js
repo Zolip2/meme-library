@@ -10,6 +10,10 @@ $("#random").click(function(){
     window.location.href = "random/index.html";
 })
 
+$("#pingvin").click(function(){
+    window.location.href = "pingvin/index.html";
+})
+
 $("#bejelentkezesgomb").click(function(){
     var valasz = document.getElementById("bejelentkezes").value
     if (valasz == 1968) {
