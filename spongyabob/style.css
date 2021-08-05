@@ -163,13 +163,15 @@ body {
 
 #vissza {
     font-size: large;
-    background-color: green;
+    background-color: grey;
     border-radius: 10px;
+    transition: transform 0.3s;
+    transition: 0.3s;
 }
 
 #vissza:hover {
-    background-color: red;
-    font-size: medium;
+    background-color: rgba(71, 69, 69, 0.747);
+    transition: 0.3s;
 }
 
 ::-webkit-scrollbar {

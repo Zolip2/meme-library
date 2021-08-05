@@ -48,7 +48,6 @@ body {
     height: 100px;
     border-radius: 10px;
     transition: width 1s, height 1s, transform 1s;
-    animation: fade;
     opacity: 0.3;
 }
 
