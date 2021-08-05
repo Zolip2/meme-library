@@ -123,6 +123,35 @@ body {
     }
 }
 
+/*iPhonex*/
+@media screen and (min-height:812px) and (min-width:375px) {
+    #doboz {
+        width: 375px;
+        height: 812px;
+        justify-content: space-evenly;
+    }
+}
+
+/*Motog4*/
+
+@media screen and (max-height:640px) and (max-width:360px) {
+    #doboz {
+        width: 360px;
+        height: 640px;
+        justify-content: space-evenly;
+    }
+}
+
+/*Iphone 5se*/
+
+@media screen and (max-height:568px) and (max-width:320px) {
+    #doboz {
+        width: 320px;
+        height: 568px;
+        justify-content: space-evenly;
+    }
+}
+
 #forti {
     width: 400px;
 }

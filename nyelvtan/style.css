@@ -123,6 +123,16 @@ body {
     }
 }
 
+/*Motog4*/
+
+@media screen and (max-height:640px) and (max-width:360px) {
+    #doboz {
+        width: 360px;
+        height: 640px;
+        justify-content: space-evenly;
+    }
+}
+
 #forti {
     width: 400px;
 }
