@@ -20,6 +20,8 @@ $("#bejelentkezesgomb").click(function(){
         window.location.href = "secret/index.html"
     } else if (valasz == "Tigriskenyér") {
         window.location.href = "személyes/index.html"
+    } else if (valasz == "Game") {
+        window.location.href = "game/index.html"
     }
 })
 
