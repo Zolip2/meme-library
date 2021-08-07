@@ -78,6 +78,15 @@ body {
     opacity: 0.3;
 }
 
+#macska {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: width 1s, height 1s, transform 1s;
+    animation: fade;
+    opacity: 0.3;
+}
+
 #spongyabob:hover {
     width: 300px;
     height: 300px;
@@ -103,6 +112,14 @@ body {
 }
 
 #pingvin:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+    opacity: 1;
+    transition: 1s;
+}
+
+#macska:hover {
     width: 300px;
     height: 300px;
     transform: rotate(360deg);

@@ -14,6 +14,10 @@ $("#pingvin").click(function(){
     window.location.href = "pingvin/index.html";
 })
 
+$("#macska").click(function(){
+    window.location.href = "macska/index.html";
+})
+
 $("#bejelentkezesgomb").click(function(){
     var valasz = document.getElementById("bejelentkezes").value
     if (valasz == 1968) {

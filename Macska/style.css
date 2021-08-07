@@ -1,0 +1,165 @@
+#doboz {
+    width:  1300px;
+    height: 600px;
+    display: flex;
+    align-content: flex-start;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.kep {
+    width: 150px;
+    height: 150px;
+}
+
+.kep:hover {
+    width: 250px;
+    height: 250px;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.678);
+}
+/*Desktop*/
+@media screen and (min-height:992px) and (min-width:1600px) {
+    #doboz {
+        width: 1500px;
+        height: 992px;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-height:992px) and (min-width:1600px) {
+    body {
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+
+/*Laptop*/
+
+/*Tablet*/
+@media screen and (min-height:1024px) and (min-width:768px) {
+    #doboz {
+        width: 768px;
+        height: 1024px;
+    }
+    .kep {
+        width: 200px;
+        height: 200px;
+    }
+    .kep:hover {
+        width: 200px;
+        height: 200px;
+    }
+}
+/*én telefonom*/
+@media screen and (max-height:854px) and (max-width:480px) {
+    #doboz {
+        height: 854px;
+        width: 480px;
+    }
+    .kep {
+        width: 300px;
+        height: 300px;
+    }
+    .kep:hover {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/*mobile*/
+@media screen and (max-height:480px) and (max-width:320px) {
+    #doboz {
+        width: 320px;
+        height: 480px;
+    }
+    .kep {
+        width: 100px;
+        height: 100px;
+    }
+    .kep:hover {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/*ipad pro*/
+@media screen and (min-height:1366px) and (min-width:1024px) {
+    #doboz {
+        width: 1024px;
+        height:1366px;
+    }
+
+    .kep {
+        width: 400px;
+        height: 400px;
+    }
+    .kep:hover {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/*surface duo*/
+@media screen and (max-height:720px) and (max-width:540px) {
+    #doboz {
+        width: 540px;
+        height: 720px;
+    }
+    .kep {
+        width: 400px;
+        height: 400px;
+    }
+    .kep:hover {
+        width: 400px;
+        height: 400px;
+    }
+}
+/*galaxy fold*/
+@media screen and (max-height:653px) and (max-width:280px) {
+    #doboz {
+        width: 280px;
+        height: 653px;
+    }
+}
+
+/*Motog4*/
+
+@media screen and (max-height:640px) and (max-width:360px) {
+    #doboz {
+        width: 360px;
+        height: 640px;
+        justify-content: space-evenly;
+    }
+}
+
+#forti {
+    width: 400px;
+}
+
+#forti:hover {
+    width: 400px;
+    height: 150px;
+}
+
+#vissza {
+    font-size: large;
+    background-color: grey;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    transition: 0.3s;
+}
+
+#vissza:hover {
+    background-color: rgba(71, 69, 69, 0.747);
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+}
