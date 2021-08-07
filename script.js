@@ -15,7 +15,7 @@ $("#pingvin").click(function(){
 })
 
 $("#macska").click(function(){
-    window.location.href = "Macska/index.html";
+    window.location.href = "macska/index.html";
 })
 
 $("#bejelentkezesgomb").click(function(){
