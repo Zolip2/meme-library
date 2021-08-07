@@ -18,6 +18,10 @@ $("#macska").click(function(){
     window.location.href = "Macska/index.html";
 })
 
+$("#cursed").click(function(){
+    window.location.href = "cursed/index.html";
+})
+
 $("#bejelentkezesgomb").click(function(){
     var valasz = document.getElementById("bejelentkezes").value
     if (valasz == 1968) {
