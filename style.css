@@ -44,6 +44,7 @@ body {
 }
 
 #spongyabob {
+    cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -52,6 +53,7 @@ body {
 }
 
 #nyelvtan {
+    cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -61,6 +63,7 @@ body {
 }
 
 #random {
+    cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -70,6 +73,7 @@ body {
 }
 
 #pingvin {
+    cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -79,6 +83,7 @@ body {
 }
 
 #macska {
+    cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -88,6 +93,7 @@ body {
 }
 
 #cursed {
+    cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -153,6 +159,7 @@ label {
 }
 
 #rick {
+    cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 10px;
