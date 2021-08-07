@@ -10,7 +10,7 @@ $("#random").click(function(){
     window.location.href = "random/index.html";
 })
 
-$("#pingvin").click(function(){
+$(".close-btn").click(function(){
     window.location.href = "pingvin/index.html";
 })
 
@@ -34,3 +34,7 @@ var audio = new Audio('sound/Rick Astley - Never Gonna Give You Up (Video).mp3')
 $("#rick").click(function(){
     audio.play()
 })
+
+function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }
