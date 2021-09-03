@@ -307,3 +307,6 @@ label {
       transform: translateY(0);
     }
   }
+  a {
+    color: #ffffff;
+  }
